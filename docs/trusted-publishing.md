@@ -15,8 +15,16 @@ A little setup change is needed to enable trusted publishing with Github.
 
 ### Setup NPM
 
-Add a trusted publisher for your package on NPM. Navigate to settings on your
-package and select Github Actions as your CI/CD provider:
+Add a trusted publisher for your package on NPM.
+
+> [!WARNING]
+> This is a jump start tutorial for trusted publishing with NPM. Settings may
+> change from NPM side. Please refer to [Trusted publishing for npm
+> packages](https://docs.npmjs.com/trusted-publishers) for actual documentation
+> from NPM.
+
+Navigate to settings on your package and select Github Actions as your CI/CD
+provider:
 
 ![Select your Trusted Publisher](./trusted-publisher.png)
 
@@ -89,11 +97,14 @@ jobs:
       - name: Install latest npm (for Trusted Publishing) # [!code ++]
         run: npm install -g npm@latest # [!code ++]
       - name: Publish to NPM
-        run: NPM_CONFIG_PROVENANCE=true pnpm release-plan publish
+        run: pnpm release-plan publish
         env:
           GITHUB_AUTH: ${{ secrets.GITHUB_TOKEN }}
       
 ```
+
+> [!INFO]
+> With trusted publishing [provenance](./provenance.md) is supported out of the box
 
 #### Secrets & Variables
 
