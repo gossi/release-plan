@@ -1,5 +1,24 @@
 # release-plan Changelog
 
+## Release (2026-01-09)
+
+* release-plan 0.17.3 (patch)
+
+#### :bug: Bug Fix
+* `release-plan`
+  * [#228](https://github.com/release-plan/release-plan/pull/228) Update `github-changelog` to `v2.1.4` to support bot users ([@gossi](https://github.com/gossi))
+
+#### :memo: Documentation
+* `release-plan`
+  * [#178](https://github.com/release-plan/release-plan/pull/178) Documentation site with `vitepress` ([@gossi](https://github.com/gossi))
+
+#### :house: Internal
+* `release-plan`
+  * [#213](https://github.com/release-plan/release-plan/pull/213) Sanitize Package Manager Version ([@gossi](https://github.com/gossi))
+
+#### Committers: 1
+- Thomas Gossmann ([@gossi](https://github.com/gossi))
+
 ## Release (2025-08-01)
 
 * release-plan 0.17.2 (patch)
