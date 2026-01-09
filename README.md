@@ -234,4 +234,4 @@ Summary:
 
 ## Origins
 
-This package was originally developed to help release [Embroider](https://github.com/release-plan/embroider) and was extracted so everyone can use it 🎉
+This package was originally developed to help release [Embroider](https://github.com/embroider-build/embroider) and was extracted so everyone can use it 🎉
