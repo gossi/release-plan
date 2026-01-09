@@ -33,8 +33,8 @@ importers:
         specifier: ^11.2.0
         version: 11.2.0
       github-changelog:
-        specifier: ^2.1.1
-        version: 2.1.1
+        specifier: ^2.1.4
+        version: 2.1.4
       js-yaml:
         specifier: ^4.1.0
         version: 4.1.0
@@ -2357,8 +2357,8 @@ packages:
   get-tsconfig@4.10.0:
     resolution: {integrity: sha512-kGzZ3LWWQcGIAmg6iWvXn0ei6WDtV26wzHRMwDSzmAbcXrTEXxHy6IehI6/4eT6VRKyMP1eF1VqwrVUmE/LR7A==}
 
-  github-changelog@2.1.1:
-    resolution: {integrity: sha512-MRJXYVBJi5EUtIvaMokAIMAOmDwx8EtO2xK2yhK/jSHQBRGVwuhVGYhSCWPSnku8MTtL4mfk2qFNqUhx2ZC98A==}
+  github-changelog@2.1.4:
+    resolution: {integrity: sha512-mZQF/YC9OR8XMGpYlLQqG66RiKwlaQZ7rXTZug28oOYkzOXd0acszuvYHVzPlYmns1aDDSwQkbzFxNOYpWhmig==}
     engines: {node: 18.* || 20.* || >= 22}
     hasBin: true
 
@@ -6617,7 +6617,7 @@ snapshots:
     dependencies:
       resolve-pkg-maps: 1.0.0
 
-  github-changelog@2.1.1:
+  github-changelog@2.1.4:
     dependencies:
       '@manypkg/get-packages': 2.2.0
       chalk: 4.1.2
